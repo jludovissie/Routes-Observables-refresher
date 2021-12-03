@@ -1,0 +1,16 @@
+<p>
+contact works!
+<br>
+<button (click)="onAbout()"> Go Back to the About Component</button>
+</p>
+
+<h3> Leadership </h3>
+<ul *ngFor="let management of management let i = index">
+<li><a>{{ management.name }} {{ management.title }}</a></li>   
+<li> {{ name.value }}</li>
+
+
+</ul>  
+<button (click)="clear()"> Clear </button>
+<input type='name' ngModel #name="ngModel"> 
+<button type='submit'>Add</button>
